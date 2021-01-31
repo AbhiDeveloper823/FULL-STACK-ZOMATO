@@ -1,0 +1,49 @@
+.heading h4{
+	color: #192f60;
+	font-weight: 700;
+}
+.heading p{
+	font-size: 0.9rem;
+}
+.rest-type img{
+	width: 200px;
+	height: 160px;
+	object-fit: cover;
+	object-position: top;
+}
+.card{
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+.rest-link{
+	color: #192f60;
+}
+.rest-link:hover{
+	color: #192f60;
+	text-decoration: none;
+}
+.loader{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* DARK */
+.dark{
+	background-color: #1a1716
+}
+.dark-head{
+	color: #eb2929 !important;
+}
+.dark-card{
+	outline: none  !important;
+	border: none !important;
+}
+.dark-link{
+	color: #eb2929 !important;
+}
+.dark-clock{
+	color: white !important;
+}
+.dark-over{
+	color: white!important;
+}

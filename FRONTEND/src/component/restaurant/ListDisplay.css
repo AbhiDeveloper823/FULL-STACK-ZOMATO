@@ -1,0 +1,79 @@
+.main-heading{
+	color: #192f60;
+	font-weight:bold;
+}
+.filters{
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	background-color: white;
+	height: 100%;
+}
+.btn-outline-secondary:hover{
+	background-color: #192f60!important;
+}
+.option-head{
+	font-size: 1.1rem;
+	color: #192f60;
+	font-weight:bold;
+}
+.option-second-head{
+	font-size:0.9rem;
+	color: #192f60!important;
+}
+.search-img{
+	border-radius: 0.3rem;
+}
+.bg-main{
+	background-color: white;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.product-head{
+	color: #192f60;
+	font-weight:bold;
+}
+.product-place{
+	color: #192f60;
+}
+.city-filter-select{
+	width: 150px;
+	height: 35px;
+	border-radius: 3px;
+	border: solid 1px #8c96ab;
+}
+.city-filter-select:focus{
+	background-color:#192f60;
+	color: white; 
+}
+.page-link{
+	border: solid 1px #8c96ab !important;
+	border-radius: 7px;
+	color: #8c96ab!important;
+}
+.page-link:hover{
+	background-color:#8c96ab!important;
+	color: white!important;
+	transition: all 0.2s linear;
+}
+.sort-drop{
+	background-color: white;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.sort-drop p{
+	font-size: 16px;
+	font-weight:bold;
+	color: #192f60;
+}
+.fa-arrow-down{
+	font-size: 22px;
+	color: #192f60;
+
+}
+.loader img{
+	height: 38vh;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 992px) {
+	.loader img{
+		height: 80vh;
+	}
+}

@@ -1,0 +1,112 @@
+.main-div{
+	height: 100vh;
+}
+.detail-img img{
+	height: 40vh;
+	width: 100%;
+	object-fit: cover;
+	object-position:center;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.detail-head-img {
+	display: flex;
+	align-items: center;
+}
+.detail-head-img img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	object-fit: cover;
+}
+.rest-head{
+	color: #192f60;
+	font-weight: bold;
+}
+.detail-rest-type{
+	color: #192f60;
+	font-size: 17px;
+	font-weight:600;
+}
+.underline{
+	width: 100%;
+	height: 0.2rem;
+	background-color: #fbfbfb;
+}
+.innerline{
+	width: 8%;
+	height: 0.2rem;
+	background-color: black;
+}
+h6{
+	font-weight:700;
+}
+.text-blue{
+	color: #192f60;
+}
+#currencySelect{
+	box-shadow: rgba(0,0,0, 0.2) 0px 0px 8px;
+}
+.detail-menu{
+	margin-bottom: 20px;
+}
+.detail-menu img{
+	box-shadow: rgba(0,0,0, 0.2) 0px 0px 8px;
+	height: 250px;
+	width:270px;
+	object-fit: cover;
+}
+.instant-btn{
+	border:0.1rem solid #192f60;
+	color: #dc3545;
+	padding: 0.5rem;
+	border-radius: 10px;
+	transition: all 0.4s ease;
+}
+.instant-btn:hover{
+	border:0.1rem solid #dc3545;
+	color: white;
+	background-color: #dc3545;
+	text-decoration: none;
+}
+/*DARK*/
+.dark{
+	background-color: #1a1716
+}
+.dark-pa{
+	color: white;
+}
+.dark-head{
+	color: #dc3545;
+}
+.dark-in i{
+	color: black;
+}
+
+/*TABS STYLE*/
+.react-tabs__tab--selected {
+    background: transparent !important; 
+    border: none !important; 
+    border-radius: none !important;
+    border-bottom: 0.2rem solid #dc3545 !important;
+}
+.react-tabs__tab-list {
+    border-bottom: 0.09rem solid #fff !important;
+}
+.container{
+	position: relative;
+}
+#img-model{
+	position: absolute;
+	bottom: 10%;
+	right: 40px;
+}
+#img-model button{
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: white;
+}
+#img-model button:focus{
+	border: none;
+	outline: none;
+}

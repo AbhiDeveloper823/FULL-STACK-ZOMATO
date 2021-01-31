@@ -1,0 +1,30 @@
+.banner{
+	height: 80vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/images/food-wallpaper.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.banner-logo{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	font-size: 3rem;
+	color: #eb2929;
+	font-weight: bold;
+}
+.head-input input, select{
+	border:none;
+	outline:none;
+	height: 40px;
+	width: 245px;
+}
+.head-input input:focus, select:focus{
+	border:none;
+	outline: none;
+}
+

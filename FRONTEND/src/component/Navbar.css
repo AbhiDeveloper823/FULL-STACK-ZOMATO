@@ -1,0 +1,48 @@
+/*NAVBAR*/
+.logo{
+	background-color: white;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	font-size: 1.9rem;
+	text-align: center;
+	color: red;
+	font-weight: 600;
+}
+.logo:hover{
+	color: red;
+}
+.nav-link{
+	color: white;
+	font-size:1.2rem;
+}
+.btn-nav{
+	background-color: transparent;
+	border:0.1rem solid white;
+	color: white;
+}
+.nav-link:hover{
+	color: white;
+}
+.navbar-toggler{
+	color: white;
+	font-size:1.8rem;
+	outline: none;
+	border:none;
+}
+.navbar-toggler:focus{
+	color: white;
+	outline: none;
+	border:none;
+}
+.cart-item{
+	width: 13px;
+	line-height: 13px;
+	padding:0px 3.5px;
+	color: red;
+	background-color: white;
+	position: absolute;
+	font-size:9px;
+	font-weight: bold;
+	border-radius: 50%;
+}

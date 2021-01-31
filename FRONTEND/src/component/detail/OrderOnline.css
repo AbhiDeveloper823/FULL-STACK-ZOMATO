@@ -1,0 +1,8 @@
+.food_detail_img img{
+	height: 150px;
+	object-fit: contain;
+	border-radius: 10px;
+}
+.veg_symbol img{
+	width: 20px;
+}
